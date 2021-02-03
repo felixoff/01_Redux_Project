@@ -1,0 +1,11 @@
+.pageNumber.selectPage {
+    font-weight: bold;
+    border-color: black;
+}
+.pageNumber {
+    padding: 2px;
+    border: 1px solid grey;
+}
+.paginator {
+    margin: 10px;
+}
