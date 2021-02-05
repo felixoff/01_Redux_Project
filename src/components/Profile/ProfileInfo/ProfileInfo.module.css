@@ -5,3 +5,11 @@ img {
     width: 300px;
     heigth: 300px;
 }
+
+.userPhoto {
+    width: 200px;
+    heigth: 200px;
+}
+.contact {
+    padding-left: 10px;
+}

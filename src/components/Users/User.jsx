@@ -8,7 +8,7 @@ let User = ({user, followingInProcess, follow, unfollow}) =>
     return (<div>
         <span>
             <div>
-                <NavLink to={'/Profile/' + user.id}>
+                <NavLink to={'/profile/' + user.id}>
                 <img src={user.photos.small != null ? user.photos.small : ava} className={styles.userPhoto}/>
                 </NavLink>
                 </div>

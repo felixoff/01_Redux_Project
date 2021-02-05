@@ -3,7 +3,8 @@ import {getUserPage} from "./auth-reducer";
 const INIT_SUCESS= 'INIT_SUCESS'
 
 let initialState = {
-    init: false
+    init: false,
+    globalError:null
 }
 
 let appReducer= (state = initialState, action) => {

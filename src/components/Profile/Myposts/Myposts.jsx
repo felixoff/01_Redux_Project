@@ -17,7 +17,7 @@ nextProps != this.props || nextState != this.state;
 
 
 const Myposts=React.memo((props)=> {
-	let postsElements = props.posts.map(p => <Post message={p.message} like={p.likeCount}/>);
+	let postsElements = props.posts.map(p => <Post key={p.id} message={p.message} like={p.likeCount}/>);
 	let addPost = (values) => {
 		props.addPost(values.postText);
 	}
